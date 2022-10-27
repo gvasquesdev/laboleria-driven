@@ -1,4 +1,3 @@
-import db from "../config/db.js";
 import clientRepository from "../repositories/clientRepository.js"
 
 export async function createClient(req,res) {
