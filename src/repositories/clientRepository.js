@@ -1,7 +1,7 @@
 import db from "../config/db.js";
 
-async function insertClient(name, address, telephone) {
-    return db.query(`INSERT INTO clients (name,address,phone) VALUES ($1,$2,$3)`, [name, address, telephone]);
+async function insertClient(name, address, phone) {
+    return db.query(`INSERT INTO clients (name,address,phone) VALUES ($1,$2,$3)`, [name, address, phone]);
 }
 
 async function getClientByName(name) {

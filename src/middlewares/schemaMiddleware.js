@@ -1,4 +1,4 @@
-export default function clientValidate(schema) {
+export default function schemaValidate(schema) {
     return (req, res, next) => { 
       const {error} = schema.validate(req.body, {abortEarly: false});
      

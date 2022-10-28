@@ -12,7 +12,7 @@ CREATE TABLE "clients" (
 
 CREATE TABLE "cakes" (
 	"id" serial NOT NULL,
-	"name" serial NOT NULL,
+	"name" varchar NOT NULL,
 	"price" numeric NOT NULL,
 	"image" varchar NOT NULL,
 	"description" TEXT NOT NULL,
